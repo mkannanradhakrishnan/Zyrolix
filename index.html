@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ZYROLIX — We Build. We Create. We Elevate.</title>
+<meta name="description" content="ZYROLIX is a creative digital studio in Erode, Tamil Nadu: website development, video editing, logo design and poster design.">
+<meta property="og:title" content="ZYROLIX — Digital & Creative Studio"><meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="pre" aria-hidden="true">ZYROLIX</div><div id="bar"></div><div id="cur"></div>
+<nav id="nav" aria-label="Main">
+<a href="#home" class="logo g">ZYROLIX</a>
+<div class="links" id="links"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#process">Process</a><a href="#contact">Contact</a></div>
+<a href="#contact" class="btn main cta-n" style="padding:9px 22px">Let's Talk</a>
+<button id="ham" aria-label="Toggle menu" aria-expanded="false"><i></i><i></i><i></i></button>
+</nav>
+<main>
+<section id="home"><canvas id="cv" aria-hidden="true"></canvas>
+<div>
+<div class="sub">We Build. We Create. We Elevate.</div>
+<h1 id="h1" aria-label="Ideas Into Digital Experiences."><span class="g">Ideas</span> <span>Into</span> <span>Digital</span> <span class="g">Experiences.</span></h1>
+<div class="sub" id="rot">Design. Develop. Create. Inspire.</div>
+<p class="lead">ZYROLIX is a creative studio for websites, video edits, logos and posters — built to give businesses and individuals a digital identity that stands out.</p>
+<a href="#portfolio" class="btn main mag">Explore Our Work</a> <a href="#contact" class="btn mag">Start a Project</a>
+</div>
+<div class="orb" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+<div class="scr" aria-hidden="true"></div>
+</section>
+
+<section id="services"><div class="wrap">
+<h2 class="rv">What We <span class="g">Create</span></h2><p class="lead rv">Four disciplines, one studio. Hover a card to explore.</p>
+<div class="grid4" id="svc"></div></div></section>
+
+<section id="about"><div class="wrap split">
+<div><h2 class="rv">Who We Are</h2>
+<p class="lead rv">ZYROLIX combines technology and creativity to help businesses and individuals establish their digital identity — from the first logo to a full responsive website.</p>
+<p class="rv" style="color:var(--mut)">Our vision: make every brand feel modern, clear and unforgettable online.</p></div>
+<div class="kw" aria-hidden="true"><span style="top:6%;left:8%">Innovation</span><span style="top:30%;left:50%;animation-delay:-1s">Design</span><span style="top:56%;left:6%;animation-delay:-2s">Technology</span><span style="top:78%;left:46%;animation-delay:-3s">Creativity</span></div>
+</div></section>
+
+<section id="why"><div class="wrap">
+<h2 class="rv">Why <span class="g">Zyrolix?</span></h2><p class="lead rv">What you can expect when you work with us.</p>
+<div class="grid4" id="feat"></div>
+<div class="glass rv" style="margin-top:20px" id="stats"><strong>Studio stats</strong><p style="color:var(--mut)">Add real numbers in the <code>STATS</code> list in the page script — counters appear automatically once it has entries.</p><div class="grid4" id="statg" style="margin-top:12px"></div></div>
+</div></section>
+
+<section id="process"><div class="wrap">
+<h2 class="rv">From Concept to Creation</h2><p class="lead rv">Five stages from first conversation to delivery.</p>
+<div class="steps" id="steps"></div></div></section>
+
+<section id="portfolio"><div class="wrap">
+<h2 class="rv">Client Projects</h2><p class="lead rv">Project slots are ready for client-approved work and visuals as they are completed.</p>
+<div class="fl" id="flt" role="group" aria-label="Filter projects"></div>
+<div class="pf" id="pf"></div></div></section>
+
+<section id="experience"><div class="wrap" style="text-align:center">
+<h2 class="rv">Experience Our Creativity</h2><p class="lead rv" style="margin-inline:auto">Pick a discipline to preview it.</p>
+<div class="tabs" id="tabs" role="tablist"></div>
+<div class="stage"><div class="pv" id="pv" aria-live="polite"></div></div></div></section>
+
+<section id="tools"><div class="wrap">
+<h2 class="rv">Tools Behind the Creativity</h2><p class="lead rv">Edit the <code>TOOLS</code> list to match what you actually use.</p>
+<div class="tools" id="tl"></div></div></section>
+
+<section id="testimonials"><div class="wrap">
+<h2 class="rv">Client Reviews</h2><p class="lead rv">Ratings and feedback from Zyrolix clients.</p>
+<div class="review-layout">
+<div>
+<div class="review-summary"><strong id="review-score" class="review-score">—</strong><div><div id="review-summary-stars" class="review-stars" aria-label="No ratings yet">☆☆☆☆☆</div><p id="review-count" class="review-count">No reviews yet</p></div></div>
+<div id="review-list" class="review-list" aria-live="polite"></div>
+</div>
+<form id="rf" class="glass review-form" novalidate>
+<div><label for="review-name">Your name</label><input id="review-name" name="name" required maxlength="60" autocomplete="name"></div>
+<div><label for="review-service">Service reviewed</label><select id="review-service" name="service" required><option>Website Development</option><option>Video Editing</option><option>Logo Design</option><option>Poster Design</option></select></div>
+<fieldset class="rating-fieldset"><legend>Your rating</legend><div class="rating-options" role="radiogroup" aria-label="Rate the service from one to five stars">
+<input id="rating-5" type="radio" name="rating" value="5" required><label for="rating-5"><span class="sr-only">5 stars</span>★</label>
+<input id="rating-4" type="radio" name="rating" value="4"><label for="rating-4"><span class="sr-only">4 stars</span>★</label>
+<input id="rating-3" type="radio" name="rating" value="3"><label for="rating-3"><span class="sr-only">3 stars</span>★</label>
+<input id="rating-2" type="radio" name="rating" value="2"><label for="rating-2"><span class="sr-only">2 stars</span>★</label>
+<input id="rating-1" type="radio" name="rating" value="1"><label for="rating-1"><span class="sr-only">1 star</span>★</label>
+</div></fieldset>
+<div><label for="review-feedback">Your feedback</label><textarea id="review-feedback" name="feedback" rows="5" minlength="10" maxlength="1000" required placeholder="What went well? What could be better?"></textarea></div>
+<button class="btn main" type="submit">Send review</button><div id="review-msg" role="status" aria-live="polite"></div>
+<p class="review-note">Reviews are sent via EmailJS and stored only in this browser. Showing reviews to all visitors requires a shared review database.</p>
+</form>
+</div></div></section>
+
+<section id="pricing"><div class="wrap pr">
+<h2 class="rv">Choose Your Creative Plan</h2><p class="lead rv">No fixed prices — every project is quoted to its scope.</p>
+<div class="grid4" id="pk"></div></div></section>
+
+<section id="faq"><div class="wrap" style="max-width:800px">
+<h2 class="rv">Frequently Asked Questions</h2><div id="fq"></div></div></section>
+
+<section id="contact"><div class="wrap split" style="background:radial-gradient(circle at 10% 0,rgba(139,92,246,.2),transparent 60%);border-radius:30px;padding:40px 4vw">
+<div><h2 class="rv">Let's Build Something Great</h2>
+<p class="lead">Tell us about your project and we'll reply with a quote.</p>
+<div class="glass"><p>📞 <a href="tel:+918946099340" id="ph">8946099340</a></p><p>✉ <span id="em">zyrolix26@gmail.com</span></p><p>📍 Punjai Puliampatti, Erode, Tamil Nadu, India</p></div>
+<div class="rows"><a class="btn main" href="https://wa.me/918946099340" target="_blank" rel="noopener">WhatsApp</a><a class="btn" href="tel:+918946099340">Call</a><a class="btn" id="mailb" href="#contact">Email</a></div></div>
+<form id="f" novalidate class="glass">
+<div><label for="n">Name</label><input id="n" name="name" required autocomplete="name"></div>
+<div><label for="e">Email</label><input id="e" name="email" type="email" required autocomplete="email"></div>
+<div><label for="s">Service</label><select id="s" name="service"><option>Website Development</option><option>Video Editing</option><option>Logo Design</option><option>Poster Design</option></select></div>
+<div><label for="bd">Budget range</label><select id="bd" name="budget"><option>Not sure yet</option><option>Small project</option><option>Medium project</option><option>Large project</option></select></div>
+<div><label for="m">Project description</label><textarea id="m" name="message" rows="4" required></textarea></div>
+<button class="btn main" type="submit">Send message</button><div id="msg" role="status"></div>
+</form></div></section>
+</main>
+<footer><div class="fg">
+<div><div class="logo g">ZYROLIX</div><p style="color:var(--mut);margin-top:10px">We Build. We Create. We Elevate. Websites, video, logos and posters from Erode, Tamil Nadu.</p></div>
+<div><strong>Explore</strong><a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#process">Process</a><a href="#contact">Contact</a></div>
+<div><strong>Services</strong><a href="#services">Websites</a><a href="#services">Video Editing</a><a href="#services">Logo Design</a><a href="#services">Poster Design</a></div>
+<div><strong>Contact</strong><a href="tel:+918946099340">8946099340</a><a href="mailto:zyrolix26@gmail.com">zyrolix26@gmail.com</a><span style="color:var(--mut)">Punjai Puliampatti, Erode, Tamil Nadu</span>
+<div style="margin-top:10px" id="soc"></div></div></div>
+<p style="color:var(--mut);margin-top:40px;font-size:.85rem">© <span id="yr"></span> ZYROLIX. All rights reserved.</p></footer>
+<button id="top" aria-label="Back to top">↑</button>
+
+<script src="script.js" defer></script>
+</body>
+</html>
